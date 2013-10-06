@@ -46,6 +46,18 @@ Query Example
 	http://localhost:8080/rest/querysamples/sample3	
 	
 	
+--------------------------------------------
+Matrix Example
+--------------------------------------------
+	1. @MatrixParam example
+	Example of using @MatrixParam in JAX-RS.
+	http://localhost:8080/rest/books/2013
+	http://localhost:8080/rest/books/2013;author=daniels
+	http://localhost:8080/rest/books/2013;author=daniels;country=Poland
+	http://localhost:8080/rest/books/2013;country=Poland;author=daniels;
+	
+	
+
 	
 		
 		
