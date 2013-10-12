@@ -57,8 +57,15 @@ Matrix Example
 	http://localhost:8080/rest/books/2013;country=Poland;author=daniels;
 	
 	
-
+-----------------------
+Form example
+-----------------------
+	1. Run Jetty: mvn jetty:run
+	2. type in the browser: http://localhost:8080/UserForm.html
+	Name -> Daniels
+	Age -> 23
 	
+	3. Run Client: FormClientExamplePost
 		
 		
 	
